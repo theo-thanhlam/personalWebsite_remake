@@ -1,0 +1,49 @@
+.iconsScroll {
+  @apply absolute w-full flex overflow-hidden bottom-3 bg-opacity-5 gap-4;
+}
+
+.iconsScroll div {
+  animation: animate 40s linear infinite;
+  animation-delay: -40s;
+  @apply flex;
+}
+
+.iconsScroll div:nth-child(2) {
+  animation: animate2 40s linear infinite;
+  animation-delay: -20s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+.iconsScroll div img {
+  @apply mx-2 max-w-14 border-8 border-solid border-transparent duration-250 bg-transparent;
+}
+
+.iconsScroll div img:hover {
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); */
+  @apply rounded-full bg-slate-500 bg-opacity-30;
+}
+
+.iconsScroll:hover div img {
+  @apply opacity-5 blur-sm;
+}
+
+.iconsScroll div img:hover {
+  @apply opacity-100 blur-0;
+}

@@ -1,0 +1,4 @@
+.card-shadow:hover {
+  box-shadow: 3px 10px 100px -56px rgba(255, 255, 255, 1);
+  @apply transition ease-in-out duration-300;
+}
