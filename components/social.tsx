@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 
 const socials = [
@@ -22,7 +21,7 @@ const socials = [
 
 const SocialGroup = () => {
   return (
-    <div className="flex flex-row gap-2 justify-center mt-8">
+    <div className="flex flex-row gap-2 justify-center">
       {socials.map((social: { url: string; img: string }, index: number) => {
         return (
           <a href={social.url} key={index}>

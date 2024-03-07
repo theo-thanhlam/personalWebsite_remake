@@ -1,5 +1,5 @@
 /* CSS */
-.button-border-animation {
+.button-gradient-border {
   padding: 0.75rem 1rem;
   border: none;
   outline: none;
@@ -13,7 +13,7 @@
   touch-action: manipulation;
 }
 
-.button-border-animation:hover:before {
+.button-gradient-border:hover:before {
   content: "";
   background: radial-gradient(
     circle at 10% 20%,
@@ -29,12 +29,12 @@
   -webkit-filter: blur(5px);
   width: calc(100% + 4px);
   height: calc(100% + 4px);
-  animation: glowing-button-border-animation 15s linear infinite;
+  animation: button-gradient-border-animation 15s linear infinite;
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
 
-@keyframes glowing-button-border-animation {
+@keyframes button-gradient-border-animation {
   0% {
     background-position: 0 0;
   }
@@ -46,7 +46,7 @@
   }
 }
 
-.button-border-animation:after {
+.button-gradient-border:after {
   z-index: -1;
   content: "";
   position: absolute;
@@ -55,4 +55,76 @@
   left: 0;
   top: 0;
   border-radius: 10px;
+}
+
+/* CSS */
+.button-comic-border {
+  /* padding: 0.6em 2em; */
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  /* background: #111; */
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-comic-border::before {
+  content: "";
+  background: repeating-conic-gradient(
+    from var(--a),
+    rgb(161, 161, 162) 0%,
+    rgb(219, 219, 222) 10%,
+    transparent 5%,
+    transparent 20%,
+    transparent 25%,
+    transparent 50%,
+    transparent 55%,
+    transparent 70%,
+    transparent 75%,
+
+    transparent 100%
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: rotation 7s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@property --a {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes rotation {
+  0% {
+    --a: 0deg;
+  }
+  100% {
+    --a: 360deg;
+  }
+}
+
+.button-comic-border:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  /* @apply bg-zinc-800; */
 }

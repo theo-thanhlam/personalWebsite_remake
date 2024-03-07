@@ -1,12 +1,11 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import AuthLink from "./auth";
 import "@/styles/text.css";
 
 const sections = [
-  { id: 1, name: "Projects", href: "/projects" },
-  { id: 2, name: "Contact", href: "/" },
+  { id: 1, name: "Projects", href: "#projects" },
+  { id: 2, name: "Contact", href: "#contact" },
 ];
 
 const Sections = () => {
@@ -22,7 +21,7 @@ const Sections = () => {
           </div>
         );
       })}
-      <AuthLink />
+      {/* <AuthLink /> */}
     </>
   );
 };

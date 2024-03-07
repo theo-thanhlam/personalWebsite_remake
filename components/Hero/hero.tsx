@@ -10,7 +10,7 @@ const Hero = () => {
         <HeroImage />
 
         <HeroDescription />
-        <div>
+        <div className="mt-8">
           <SocialGroup />
         </div>
       </div>
