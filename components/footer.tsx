@@ -3,8 +3,8 @@ import SocialGroup from "./social";
 
 const Foot = () => {
   return (
-    <div className="bg-transparent py-10 flex ">
-      <div className="flex items-center">
+    <div className="bg-transparent py-10 ">
+      <div className="flex items-center justify-center md:justify-start">
         <div className="social-list">
           <SocialGroup />
         </div>

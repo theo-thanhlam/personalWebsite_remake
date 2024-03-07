@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Awesome Project",
+        "type": "Web Application",
+        "icon": "https://img.icons8.com/officel/80/code-file.png",
+        "preview": "https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "overviewContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget nisi id nulla cursus ullamcorper vel sed purus. Vivamus aliquet ligula ac augue vehicula tincidunt.",
+        "techs": ["typescript", "nextjs", "firebase", "mysql"],
+        "createdAt": "2024-03-07T12:00:00Z",
+        "content": "<h2>New Features</h2><p>This is a new post with <strong>exciting</strong> updates! We've added <em>new functionalities</em> to improve user experience. Also, check out our <a href=\"#\">demo video</a> to see these features in action!</p><blockquote>Don't miss out on the latest innovations!</blockquote><p>Stay tuned for more updates!</p>",
+        "slug":"fdasfadfadsfasfasdfasdf1"
+      },
+      {
+        "name": "Cool Project",
+        "type": "Mobile App",
+        "icon": "https://img.icons8.com/officel/80/mobile-development.png",
+        "preview": "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "overviewContent": "Sed non mauris eu magna consequat efficitur ut vitae quam. Proin lacinia tincidunt magna, eu tincidunt leo scelerisque eget.",
+        "techs": ["nextjs","firebase"],
+        "createdAt": "2024-03-06T12:00:00Z",
+        "content": "<h2>Latest Updates</h2><p>This is another new post with <strong>exciting</strong> features! We've revamped the user interface and enhanced <em>performance</em> for smoother navigation. Download our app now and experience the difference!</p><ul><li>Improved UI</li><li>Enhanced Performance</li><li>Bug Fixes</li></ul>",
+        "slug":"fdasfadfadsfasfasdfasdf2"
+
+      },
+      {
+        "name": "Fantastic Project",
+        "type": "Desktop Application",
+        "icon": "https://img.icons8.com/officel/80/computer.png",
+        "preview": "https://images.pexels.com/photos/376971/pexels-photo-376971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "overviewContent": "Integer eget nulla in libero malesuada tristique eu non est. Cras nec augue convallis, ultricies risus in, congue mauris.",
+        "techs": ["firebase", "mysql"],
+        "createdAt": "2024-03-05T12:00:00Z",
+        "content": "<h2>Release Notes</h2><p>Yet another new post with <strong>exciting</strong> updates! We've added new features and improved <em>stability</em> for better performance. Check out the release notes below:</p><ol><li>Added Dark Mode</li><li>Enhanced Security</li><li>Optimized Resource Management</li></ol>",
+        "slug":"fdasfadfadsfasfasdfasdf3"
+
+      },
+      {
+        "name": "Exciting Project",
+        "type": "IoT Solution",
+        "icon": "https://img.icons8.com/officel/80/circuit.png",
+        "preview": "https://images.pexels.com/photos/577384/pexels-photo-577384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "overviewContent": "Fusce eleifend vestibulum eros, eu faucibus tortor. Curabitur nec tempor purus. Mauris quis est vel nisl fermentum vehicula.",
+        "techs": ["firebase"],
+        "createdAt": "2024-03-04T12:00:00Z",
+        "content": "<h2>Product Update</h2><p>Yet another post with <strong>exciting</strong> announcements! We've introduced new functionalities and enhanced <em>compatibility</em> for seamless integration with other devices. Stay tuned for more updates!</p><p><img src=\"https://via.placeholder.com/400\" alt=\"Product Update\"></p>",
+        "slug":"fdasfadfadsfasfasdfasdf4"
+
+      },
+      {
+        "name": "Innovative Project",
+        "type": "Machine Learning Model",
+        "icon": "https://img.icons8.com/officel/80/artificial-intelligence.png",
+        "preview": "https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "overviewContent": "Vivamus blandit odio at odio sollicitudin tincidunt. Aliquam erat volutpat. Donec vestibulum auctor justo, vel ultricies lacus viverra nec.",
+        "techs": [ "mysql"],
+        "createdAt": "2024-03-03T12:00:00Z",
+        "content": "<h2>Model Enhancements</h2><p>Yet another dummy post with <strong>exciting</strong> updates! We've fine-tuned our machine learning model and added new <em>features</em> for better predictions. Here's what's new:</p><ul><li>Improved Accuracy</li><li>Reduced Latency</li><li>Enhanced Visualization</li></ul>",
+        "slug":"fdasfadfadsfasfasdfasdf5"
+
+      }
+            
+                  
+]

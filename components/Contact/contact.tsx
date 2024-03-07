@@ -1,19 +1,15 @@
 "use client";
 import React, { useState } from "react";
 import "@/styles/button.css";
-
+import copy from "copy-to-clipboard";
 const email = "theo.thanhlam@gmail.com";
-
-function copy() {
-  navigator.clipboard.writeText(email);
-}
 
 const ContactSection = () => {
   const [copied, setCopied] = useState<boolean>(false);
 
   return (
     <div
-      className="pt-10 flex flex-col items-center lg:items-start"
+      className="pt-10 flex flex-col items-center md:items-start"
       id="contact"
     >
       <div className="header-container pb-4">
@@ -23,7 +19,7 @@ const ContactSection = () => {
         <button
           className="button-comic-border after:bg-zinc-700 py-2 px-6 flex hover:after:bg-zinc-500 active:after:bg-zinc-600"
           onClick={() => {
-            copy();
+            copy(email);
             setCopied(true);
           }}
         >
