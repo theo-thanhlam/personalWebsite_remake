@@ -13,9 +13,9 @@ const dummyData = {
   ),
 };
 
-const ProjectCard = (project: any) => {
+const ProjectCard = (props: { slug: string }) => {
   return (
-    <Link href={`/project/${project.slug}`}>
+    <Link href={`/project/${props.slug}`}>
       <div className="relative flex max-w-[32rem] flex-col overflow-hidden rounded-xl bg-neutral-700  bg-opacity-20 bg-clip-border  shadow-md card-shadow">
         <div className="relative m-0 overflow-hidden  rounded-none shadow-none bg-clip-border">
           <img src={dummyData.img} alt="ui/ux review check" />
