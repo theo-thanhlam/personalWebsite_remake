@@ -13,7 +13,7 @@ const ContactSection = () => {
       id="contact"
     >
       <div className="header-container pb-4">
-        <h2 className="text-3xl">Get In Touch</h2>
+        <h2 className="text-3xl font-bold">Get In Touch</h2>
       </div>
       <div className="">
         <button

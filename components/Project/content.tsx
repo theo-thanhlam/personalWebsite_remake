@@ -7,7 +7,9 @@ const ProjectContent = (props: { content: string }) => {
         <h1 className="text-4xl text-white py-3 font-bold">
           Project Description
         </h1>
-        <div dangerouslySetInnerHTML={{ __html: `${props.content}` }} />
+        <div className="bg-zinc-500 bg-opacity-5 rounded-lg text-zinc-200">
+          <div dangerouslySetInnerHTML={{ __html: `${props.content}` }} />
+        </div>
       </div>
     </div>
   );

@@ -4,11 +4,13 @@ import React from "react";
 import "@/styles/text.css";
 
 const sections = [
-  { id: 1, name: "Projects", href: "#projects" },
-  { id: 2, name: "Contact", href: "#contact" },
+  { id: 1, name: "Projects", href: "/#projects" },
+  { id: 2, name: "Contact", href: "/#contact" },
 ];
 
 const Sections = () => {
+  const currentPath = location.pathname;
+
   return (
     <>
       {sections.map((section) => {
@@ -17,7 +19,7 @@ const Sections = () => {
             className="px-4 py-3 outline-none cursor-pointer text-underline"
             key={section.id}
           >
-            <Link href={section.href}>{section.name}</Link>
+            <Link href={location.origin + section.href}>{section.name}</Link>
           </div>
         );
       })}
