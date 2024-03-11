@@ -9,4 +9,5 @@ export type projectData = {
     createdAt: string;
     content: string;
     slug:string;
+    website?:string
   }

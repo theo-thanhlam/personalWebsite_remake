@@ -4,13 +4,13 @@
 
 .iconsScroll div {
   animation: animate 40s linear infinite;
-  animation-delay: -40s;
+  animation-delay: -39s;
   @apply flex;
 }
 
 .iconsScroll div:nth-child(2) {
   animation: animate2 40s linear infinite;
-  animation-delay: -20s;
+  animation-delay: -19.5s;
 }
 
 @keyframes animate {
@@ -32,7 +32,7 @@
 }
 
 .iconsScroll div img {
-  @apply mx-2 max-w-14 border-8 border-solid border-transparent duration-250 bg-transparent;
+  @apply  max-w-14 border-8 border-solid border-transparent duration-250 bg-transparent;
 }
 
 .iconsScroll div img:hover {

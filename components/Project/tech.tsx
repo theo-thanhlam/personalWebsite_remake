@@ -2,8 +2,7 @@ import { techStacks } from "@/lib/techStack";
 import React from "react";
 
 const Tech = (props: { name: string }) => {
-  const tech =
-    techStacks.filter((value) => value.tech == props.name)[0] || null;
+  const tech = techStacks.filter((value) => value.tech == props.name)[0];
   return (
     <div className="tech-container flex flex-row gap-4">
       <div className="tech-image">

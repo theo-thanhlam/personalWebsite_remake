@@ -34,7 +34,7 @@ const Project = ({ params }: { params: { slug: string } }) => {
                   <ProjectCreatedDate createdAt={data.createdAt} />
                 </div>
                 <div className="h-content">
-                  <ProjectWebsite href="#" />
+                  <ProjectWebsite href={data.website || "#"} />
                 </div>
               </div>
             </div>

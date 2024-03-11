@@ -8,7 +8,8 @@
         "techs": ["typescript", "nextjs", "firebase", "mysql"],
         "createdAt": "2024-03-07T12:00:00Z",
         "content": "<h2>New Features</h2><p>This is a new post with <strong>exciting</strong> updates! We've added <em>new functionalities</em> to improve user experience. Also, check out our <a href=\"#\">demo video</a> to see these features in action!</p><blockquote>Don't miss out on the latest innovations!</blockquote><p>Stay tuned for more updates!</p>",
-        "slug":"fdasfadfadsfasfasdfasdf1"
+        "slug":"fdasfadfadsfasfasdfasdf1",
+        "website":"https://github.com"
       },
       {
         "name": "Cool Project",
