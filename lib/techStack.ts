@@ -85,4 +85,10 @@ export const techStacks = [
 
     img: "https://img.icons8.com/color/480/mongoose.png",
   },
+  {
+    tech: "trpc",
+    name: "tRPC",
+
+    img: "https://trpc.io/img/logo.svg",
+  },
 ];
