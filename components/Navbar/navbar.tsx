@@ -9,7 +9,7 @@ import Sections from "./section";
 const NavBar = () => {
   const [open, setOpen] = useState<boolean>(false);
   return (
-    <nav className="flex items-center justify-between pt-4 pb-8">
+    <nav className="flex items-center justify-between pt-4 pb-8 ">
       <Link
         href={"/"}
         className="flex-center flex text-lg font-bold md:text-xl lg:text-3xl"

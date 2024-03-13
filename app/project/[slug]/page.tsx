@@ -7,16 +7,16 @@ import ProjectWebsite from "@/components/Project/website";
 import { projectData } from "@/types/project";
 import React from "react";
 import dummyData from "@/dummy/data.json";
+import { getProjectBySlug } from "@/lib/data";
 
-const Project = ({ params }: { params: { slug: string } }) => {
+const Project = async ({ params }: { params: { slug: string } }) => {
   //Change to fetch slug from api
-  const data: projectData = dummyData.filter(
-    (values) => params.slug === values.slug,
-  )[0];
+  const data = await getProjectBySlug(params.slug);
+  if (!data) return <div> Project Not Found</div>;
   return (
     <div>
       <div className="flex flex-col md:flex-nowrap items-center md:items-start">
-        <ProjectHeader name={data.name} type={data.type} icon={data.icon} />
+        <ProjectHeader name={data.name} type={data.type} />
         <div>
           <div className="py-8">
             <img src={data.preview} alt="" className="rounded-xl" />
@@ -34,7 +34,7 @@ const Project = ({ params }: { params: { slug: string } }) => {
                   <ProjectCreatedDate createdAt={data.createdAt} />
                 </div>
                 <div className="h-content">
-                  <ProjectWebsite href={data.website || "#"} />
+                  <ProjectWebsite href={data.website || null} />
                 </div>
               </div>
             </div>
