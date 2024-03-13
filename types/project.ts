@@ -5,7 +5,7 @@ export type projectData = {
   preview: string;
   overviewContent: string;
   techs: string[];
-  createdAt: string;
+  createdAt?: Date;
   content: string;
   slug: string;
   website?: string;

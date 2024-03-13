@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectCreatedDate = (props: { createdAt: string }) => {
+const ProjectCreatedDate = (props: { createdAt: any }) => {
   return (
     <div className="bg-zinc-500 rounded-lg px-4 bg-opacity-10 border border-zinc-900">
       <div className="CreatedAt">

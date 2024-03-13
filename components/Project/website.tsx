@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const ProjectWebsite = (props: { href: string }) => {
+const ProjectWebsite = (props: { href: any }) => {
   return (
     <div className="">
       {props.href ? (

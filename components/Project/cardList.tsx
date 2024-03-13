@@ -5,8 +5,7 @@ import { projectData } from "@/types/project";
 import { getAllProjects } from "@/lib/data";
 
 const ProjectCardList = async () => {
-  //CHANGE TO FETCH API after
-  const projects: projectData[] = await getAllProjects();
+  const projects: any = await getAllProjects();
   return (
     <div>
       <h2 className="text-3xl font-bold text-center md:text-start">Projects</h2>
