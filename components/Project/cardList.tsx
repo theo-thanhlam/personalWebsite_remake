@@ -13,7 +13,7 @@ const ProjectCardList = async () => {
         className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  md:place-content-start  flex-col  gap-y-10  gap-x-10 pt-10"
         id="projects"
       >
-        {projects.toReversed().map((project: projectData, index: number) => {
+        {projects.map((project: projectData, index: number) => {
           return <ProjectCard data={project} key={index} />;
         })}
       </div>
