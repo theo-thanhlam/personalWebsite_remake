@@ -23,7 +23,7 @@ const Projects = () => {
             />
           );
         })} */}
-        <div className="hidden md:block"> (Comming soon...)</div>
+        <div className="hidden sm:block"> (Coming soon...)</div>
       </div>
     </Section>
   );

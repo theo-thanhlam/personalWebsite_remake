@@ -1,7 +1,6 @@
 import React from "react";
 import SectionLayout from "./section/layout";
 import profileImage from "@/public/profile.png";
-import Image from "next/image";
 
 const Bio = () => {
   return (
@@ -9,8 +8,8 @@ const Bio = () => {
       <div></div>
       <div className="flex flex-col gap-6 items-center sm:items-start">
         <div className="avatar justify-center sm:justify-start">
-          <div className="rounded-full w-1/4 ring-4 ring-zinc-100 ringe-offset-2">
-            <Image
+          <div className="rounded-full w-1/3 ring-4 ring-zinc-100 ringe-offset-2">
+            <img
               src={profileImage.src}
               alt="Theo Lam"
               width={profileImage.width}
