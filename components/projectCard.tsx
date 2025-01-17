@@ -46,7 +46,7 @@ const ProjectCard = ({
 
       <dialog ref={modalRef} className="modal modal-middle backdrop-blur-md">
         <div className="modal-box">
-          <h3 className="font-bold text-lg">{name}</h3>
+          {/* <h3 className="font-bold text-lg">{name}</h3> */}
           <div className="py-4 prose prose-sm sm:prose-base">
             <div dangerouslySetInnerHTML={{ __html: markdownContent }} />
           </div>

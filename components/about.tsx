@@ -10,7 +10,7 @@ const About = async () => {
     <Section name="about">
       <div
         dangerouslySetInnerHTML={{ __html: content }}
-        className="prose prose-base"
+        className="prose prose-zinc text-zinc-200 prose-strong:text-zinc-50 font-mono"
       />
     </Section>
   );

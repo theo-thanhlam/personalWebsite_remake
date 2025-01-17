@@ -37,7 +37,7 @@ const Contact = () => {
             </g>
           </svg>
 
-          <span> {email}</span>
+          <span className=""> {email}</span>
         </button>
       </div>
     </Section>
