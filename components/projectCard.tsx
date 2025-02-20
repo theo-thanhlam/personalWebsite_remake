@@ -7,7 +7,7 @@ const ProjectCard = ({
   markdownContent,
 }: {
   name: string;
-  description: string;
+  description?: string | null;
   markdownContent: string;
 }) => {
   const modalRef = useRef<HTMLDialogElement>(null);

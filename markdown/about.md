@@ -1,5 +1,13 @@
-Hey, thanks for visiting my personal website.  
-I am a new computer science graduate at *York University*. I was an active member of some clubs at York, where I contributed and practiced web development skills with my peers. Now I am seeking an employement in any tech position, hopefully full-stack/backend developer.
+Hi there, thank you for visiting my profile.
+I am a recent graduate in Computer Science at York University. My journey began in backend development, where I gained hands-on experience building APIs and optimizing databases. But now I am excited to pivot into a world of Data Engineering. I’m currently deepening my knowledge in data pipelines, ETL processes, cloud platforms, and big data tools.
+
+Summary of my skills:
+- Programming Languages: JavaScript, TypeScript, Python, Java
+- Data Engineering: ETL process, ETL pipeline
+- Web frameworks: React.Js, Node.js, Express.js, FastAPI
+- Data Science: Pandas, Numpy, Request
+- Databases: PostgreSQL, MySQL, MongoDB
+- Cloud: AWS
 
 Some facts about me
  - Nothing beats **Coffee** ☕ and **Everything Bagel**
